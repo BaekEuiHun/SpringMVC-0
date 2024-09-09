@@ -4,8 +4,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
   MemberRepository memberRepository = MemberRepository.getInstance();
-  List<Member> members = memberRepository.findAll();
-%>
+  List<Member> members = memberRepository.findAll(); %>
 
 <html>
 <head>
